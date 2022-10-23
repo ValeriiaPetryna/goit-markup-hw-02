@@ -8,7 +8,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height:1,19;
     color: #2196F3;
 }
 .logo-second-part{
@@ -16,7 +16,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height:1,19;
     color: #000000;
 }
 
@@ -38,7 +38,7 @@ text-decoration:none ;
 .header-list-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: cale(16/14);
+  line-height: 1,14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -49,7 +49,7 @@ text-decoration:none ;
 .header-tel-link{
 font-size: 14px;
 font-weight: 500;
-line-height: cale(16/14);
+line-height: 1,14;
 letter-spacing: 0.02em;
 text-align: left;
 color:#757575 ;
@@ -62,7 +62,7 @@ color:#757575 ;
 .hero-title{
 font-weight: 900;
 font-size: 44px;
-line-height: cale(60/44);
+line-height: 1,36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -71,7 +71,7 @@ color: #FFFFFF;
 .main-button{
 font-size: 16px;
 font-weight: 700;
-line-height: cale(30/16);
+line-height: 1,88;
 letter-spacing: 0.06em;
 text-align: center;
 color: #FFFFFF;}
@@ -85,7 +85,7 @@ color: #FFFFFF;}
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: cale(26/16);
+    line-height: 1,63;
     color: #212121;
     }
     .filter-button:hover, :focus {
@@ -96,7 +96,7 @@ color: #FFFFFF;}
 .benefits-title{
 font-weight: 700;
 font-size: 14px;
-line-height: cale(16/14);
+line-height: 1,14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -104,32 +104,32 @@ color: #212121;
 .benefits-list-item{
 font-weight: 400;
 font-size: 14px;
-line-height: cale(24/14);
+line-height: 1,17;
 color: #757575;
 }
 .about-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: cale(42/36);
+    line-height: 1,17;
     color: #212121;
 }
 .team-member{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height:1,19;
     color: #212121;
 }
 .position{
  font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1,19;
 color: #757575;
 }
 
 .contacts-link{
 font-weight: 500;
 font-size: 14px;
-line-height: cale(16:14);
+line-height: 1,14;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -140,15 +140,19 @@ color: #757575;
 }   
 
 /* Портфоліо */
+
+.visually-hidden{
+    visibility: hidden;}
+    
 .projects-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: cale(36/18);
+    line-height: 2;
     color: #212121;
 }
 .projects-item{
     font-weight: 400;
     font-size: 16px;
-    line-height: cale(30:16);
+    line-height: 1,86;
     color: #757575;
 }
