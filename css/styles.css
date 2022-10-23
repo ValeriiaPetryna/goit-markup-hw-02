@@ -1,10 +1,27 @@
-.body {
-  font-family: "Roboto";
-  text-decoration-color:#757575 ;
-  
+body{
+  font-family:'Roboto';
+  text-decoration-color:#757575;
 }
-.headev-nav{
-    position: absolute;
+/* ЛОГО сайту */
+.logo-firs-part{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+}
+.logo-second-part{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.header-nav {
+position: absolute;
 width: 1600px;
 height: 80px;
 left: 0px;
@@ -29,7 +46,6 @@ text-decoration:none ;
     color: #2196F3;
 }
 
-}
 .header-tel-link{
 font-size: 14px;
 font-weight: 500;
@@ -40,43 +56,76 @@ color:#757575 ;
 }
 
 .hero{
-    position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background: #2F303A;
-    background-color: #2F303A;
+
 }
 
 .hero-title{
-
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: cale(60/44);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
 .main-button{
-    position: absolute;
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
 font-size: 16px;
 font-weight: 700;
-line-height: (30/16);
+line-height: cale(30/16);
 letter-spacing: 0.06em;
 text-align: center;
-color: #FFFFFF;
+color: #FFFFFF;}
+
 
 .main-button:hover, :focus {
     background-color: #2196F3;
+    cursor: pointer;
 }    
-
+.filter-button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: cale(26/16);
+    color: #212121;
+    }
+    .filter-button:hover, :focus {
+        background-color: #2196F3;
+        color:#FFFFFF;
+        cursor: pointer;}
+    
+.benefits-title{
+font-weight: 700;
+font-size: 14px;
+line-height: cale(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
 }
+.benefits-list-item{
+font-weight: 400;
+font-size: 14px;
+line-height: cale(24/14);
+color: #757575;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: cale(42/36);
+    color: #212121;
+}
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+.position{
+ font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #757575;
+}
+
 .contacts-link{
 font-weight: 500;
 font-size: 14px;
@@ -88,4 +137,18 @@ color: #757575;
 .contacts-link:hover, :focus {
     color: #2196F3;
     
+}   
+
+/* Портфоліо */
+.projects-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: cale(36/18);
+    color: #212121;
+}
+.projects-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: cale(30:16);
+    color: #757575;
 }
